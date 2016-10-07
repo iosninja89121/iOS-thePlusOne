@@ -1,0 +1,85 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CardIO (5.3.2)
+  - Crashlytics (3.8.0):
+    - Fabric (~> 1.6.3)
+  - DZNEmptyDataSet (1.8.1)
+  - DZNPhotoPickerController (2.0):
+    - DZNPhotoPickerController/Core (= 2.0)
+  - DZNPhotoPickerController/Core (2.0):
+    - DZNEmptyDataSet (~> 1.7)
+    - DZNPhotoPickerController/Editor
+    - DZNPhotoPickerController/Services
+    - SDWebImage (~> 3.7)
+  - DZNPhotoPickerController/Editor (2.0)
+  - DZNPhotoPickerController/Services (2.0):
+    - AFNetworking (~> 3.0)
+  - Fabric (1.6.8)
+  - FSCalendar (2.2.0)
+  - HCSStarRatingView (1.4.5)
+  - JSONModel (1.2.0)
+  - MBProgressHUD (1.0.0)
+  - OpenTok (2.8.3)
+  - PayPal-iOS-SDK (2.14.4):
+    - PayPal-iOS-SDK/CardIO (= 2.14.4)
+    - PayPal-iOS-SDK/Core (= 2.14.4)
+  - PayPal-iOS-SDK/CardIO (2.14.4):
+    - CardIO (~> 5.3.2)
+  - PayPal-iOS-SDK/Core (2.14.4)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - TPKeyboardAvoiding (1.3)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1)
+  - Crashlytics
+  - DZNPhotoPickerController
+  - Fabric
+  - FSCalendar
+  - HCSStarRatingView (~> 1.4.5)
+  - JSONModel (~> 1.2)
+  - MBProgressHUD
+  - OpenTok
+  - PayPal-iOS-SDK
+  - PNChart
+  - TPKeyboardAvoiding (~> 1.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CardIO: 92c45caef0d986c4a303a7afba0c9b76ff2b1f6e
+  Crashlytics: 8601d9c74a4c4d28f3e7f408bf4c0e490c70e8b4
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  DZNPhotoPickerController: 1a9b83a53a2f35094e35c163417ab0aeb8653fd1
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  FSCalendar: 766367b91bcf2829c492c5ac50a58652c6df4ee8
+  HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  OpenTok: ad14a09847ba5d6485820f5946484b749de944d7
+  PayPal-iOS-SDK: 44721dc89bfe64ea8c8437bc5224314a8d38e3fe
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+PODFILE CHECKSUM: 6f97e55b09adf1ec492743b2e535222fabaad417
+
+COCOAPODS: 1.0.1
